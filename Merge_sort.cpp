@@ -11,7 +11,6 @@ void mrg(int a[],int be,int mid,int en)
         b[k++]=a[i];
     for (;j<=en;j++)
         b[k++]=a[j];
-
     for (i=0;i<k;i++)
         a[be++]=b[i];
 }
